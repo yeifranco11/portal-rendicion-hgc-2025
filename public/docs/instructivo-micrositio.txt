@@ -1,0 +1,1220 @@
+Instructivo para desarrollo del micrositio
+Rendición de Cuentas 2025
+Hospital Gonzalo Contreras E.S.E.
+1. Objetivo del micrositio
+Desarrollar un micrositio web para socializar de manera previa, organizada, clara y participativa el informe completo de Rendición de Cuentas 2025 del Hospital Gonzalo Contreras E.S.E.
+El micrositio debe permitir que la comunidad:
+1.	Consulte el informe completo de Rendición de Cuentas 2025.
+2.	Navegue la información por capítulos.
+3.	Lea resúmenes ciudadanos de cada tema.
+4.	Revise cifras, indicadores, tablas y gráficos principales.
+5.	Envíe preguntas antes del espacio presencial de diálogo.
+6.	Acceda a información desde celular, computador o mediante código QR ubicado en piezas físicas y digitales.
+El contenido base proviene de la presentación “Rendición de Cuentas 2025”, que incluye plataforma estratégica, prestación de servicios, promoción y prevención, salud pública, caracterización de usuarios, morbilidad, mortalidad, contratación, aspectos financieros, satisfacción de usuarios, talento humano, plan anticorrupción e informe de gestión. 
+________________________________________
+2. Nombre sugerido del micrositio
+Rendición de Cuentas 2025
+Hospital Gonzalo Contreras E.S.E.
+También puede manejarse como:
+Micrositio de Consulta Ciudadana – Rendición de Cuentas 2025
+________________________________________
+3. Estructura general del micrositio
+El micrositio debe tener mínimo las siguientes secciones o páginas:
+1.	Página principal / Inicio
+2.	Informe completo
+3.	Capítulos del informe
+4.	Página individual por capítulo
+5.	Participa con tu pregunta
+6.	Cronograma de participación
+7.	Footer institucional
+Puede desarrollarse como una sola página larga con navegación por anclas o como un micrositio de varias páginas. La recomendación es hacerlo de varias páginas o con secciones dinámicas para que la información no quede saturada.
+________________________________________
+4. Menú superior del micrositio
+El encabezado debe estar fijo o visible al inicio de la navegación.
+Elementos del menú
+A la izquierda:
+Logo Hospital Gonzalo Contreras E.S.E.
+A la derecha:
+•	Inicio
+•	Informe completo
+•	Capítulos
+•	Preguntas
+•	Participa
+Comportamiento esperado
+Al hacer clic en cada opción:
+•	Inicio: vuelve a la página principal.
+•	Informe completo: lleva a la sección donde se puede descargar o visualizar el informe completo.
+•	Capítulos: lleva al listado de capítulos.
+•	Participa: lleva directamente al formulario de envío de preguntas.
+En móvil, el menú debe convertirse en menú hamburguesa.
+________________________________________
+5. Página principal / Inicio
+La página principal debe funcionar como puerta de entrada al proceso de rendición de cuentas.
+5.1. Bloque hero o encabezado principal
+Debe ser la primera sección visible al entrar al micrositio.
+Contenido que debe llevar
+Título principal:
+Rendición de Cuentas 2025
+Subtítulo:
+Hospital Gonzalo Contreras E.S.E.
+Texto introductorio sugerido:
+Te invitamos a consultar el informe completo de gestión 2025 del Hospital Gonzalo Contreras E.S.E. Antes de la jornada de diálogo con la comunidad, podrás revisar los principales resultados, conocer la información por capítulos y enviar tus preguntas sobre los temas que más te interesen.
+Botones principales
+Debe tener tres botones visibles:
+1.	Descargar informe completo
+2.	Enviar una pregunta
+3.	Ver capítulos
+Recomendación visual
+Usar una fotografía institucional del Hospital, atención al usuario, personal asistencial o una imagen limpia relacionada con salud, comunidad y transparencia.
+________________________________________
+5.2. Bloque de mensaje institucional
+Debajo del hero debe incluirse un mensaje corto:
+La Rendición de Cuentas 2025 es un ejercicio de transparencia, participación ciudadana y diálogo con la comunidad.
+Este mensaje puede acompañarse con íconos de:
+•	Transparencia
+•	Participación
+•	Salud
+•	Comunidad
+•	Diálogo
+________________________________________
+5.3. Bloque “Lo más importante de la gestión 2025”
+Esta sección debe mostrar tarjetas de indicadores clave.
+Título de la sección
+Lo más importante de la gestión 2025
+Tarjetas sugeridas
+Tarjeta 1
+99,5%
+Satisfacción de usuarios
+Tarjeta 2
+15,5 minutos
+Oportunidad en urgencias Triage II
+Tarjeta 3
+$1.255 millones
+Inversión en insumos y medicamentos
+Tarjeta 4
+30.889
+Usuarios asignados al Hospital
+Tarjeta 5
+71
+Tutelas presentadas en 2025
+Tarjeta 6
+93,75%
+Resultado SG-SST
+Tarjeta 7 opcional
+100%
+Gestión de eventos adversos
+Tarjeta 8 opcional
+8,5 días
+Oportunidad de respuesta PQR
+Cada tarjeta debe incluir:
+•	Ícono.
+•	Dato grande.
+•	Descripción corta.
+•	Color institucional suave.
+•	Opción de clic para ampliar información o ir al capítulo relacionado.
+________________________________________
+5.4. Bloque “Consulta la información por capítulos”
+Esta sección debe mostrar los capítulos del informe en tarjetas navegables.
+Título
+Consulta la información por capítulos
+Texto introductorio
+El informe está organizado por temas para que puedas consultar fácilmente la información que más te interese.
+Tarjetas de capítulos
+Cada tarjeta debe tener:
+•	Ícono.
+•	Nombre del capítulo.
+•	Descripción de una línea.
+•	Botón o enlace: Ver capítulo
+Capítulos que deben aparecer
+1.	Plataforma estratégica
+2.	Plan de Desarrollo Institucional
+3.	Prestación de servicios de salud
+4.	Promoción, prevención y Atención Primaria en Salud
+5.	Vacunación y salud pública
+6.	Caracterización de usuarios
+7.	Morbilidad y mortalidad
+8.	Contratación e inversiones
+9.	Aspectos financieros
+10.	Satisfacción de usuarios, PQR y participación ciudadana
+11.	Tutelas y atención prioritaria
+12.	Talento humano
+13.	Plan Anticorrupción y Atención al Ciudadano
+14.	Informe de gestión, logros y acciones de mejora
+________________________________________
+5.5. Bloque “Participa con tu pregunta”
+Esta sección debe aparecer en la página principal y también debe tener una página propia.
+Título
+Participa con tu pregunta
+Texto sugerido
+Después de consultar el informe, puedes enviar tus preguntas, observaciones o inquietudes para que sean revisadas y respondidas durante el espacio de diálogo con la comunidad.
+Elementos
+•	Formulario de preguntas.
+•	Código QR para compartir.
+•	Botón de envío.
+•	Texto de protección de datos.
+•	Fecha límite para enviar preguntas.
+________________________________________
+5.6. Bloque “Cronograma de participación”
+Debe mostrar el proceso por etapas.
+Título
+Cronograma de participación
+Etapas sugeridas
+Etapa 1
+Publicación del informe completo
+El informe estará disponible para consulta ciudadana en el micrositio.
+Etapa 2
+Socialización previa
+Durante los días previos se divulgarán contenidos explicativos en redes sociales, muro físico y canales institucionales.
+Etapa 3
+Recepción de preguntas
+La comunidad podrá enviar preguntas a través del formulario web o el buzón físico instalado en el Hospital.
+Etapa 4
+Jornada de diálogo con la comunidad
+Espacio presencial para resolver las preguntas recibidas y ampliar información sobre la gestión 2025.
+El desarrollador debe dejar las fechas editables desde el administrador o en un archivo de configuración.
+6. Página “Informe completo”
+Esta página debe garantizar que el informe completo esté disponible para consulta y descarga.
+Objetivo de la página
+Permitir que cualquier ciudadano acceda al informe completo oficial de Rendición de Cuentas 2025.
+Elementos obligatorios
+6.1. Título
+Informe completo de Rendición de Cuentas 2025
+6.2. Texto introductorio
+En esta sección puedes consultar y descargar el informe completo de Rendición de Cuentas 2025 del Hospital Gonzalo Contreras E.S.E., con la información institucional, asistencial, financiera, contractual, de satisfacción de usuarios, talento humano, salud pública y acciones de mejora.
+6.3. Botón de descarga
+Descargar informe completo en PDF
+El archivo debe abrir en una pestaña nueva o descargarse directamente.
+6.4. Visor del documento
+Se recomienda incluir un visor PDF embebido.
+Debe permitir:
+•	Ver el documento dentro del navegador.
+•	Ampliar pantalla.
+•	Descargar.
+•	Imprimir.
+•	Navegar por páginas.
+6.5. Archivos complementarios
+Dejar una sección para anexos, en caso de que el Hospital quiera subir documentos adicionales.
+Ejemplo:
+•	Presentación oficial.
+•	Informe financiero.
+•	Anexos de contratación.
+•	Anexos de PQR.
+•	Plan Anticorrupción.
+•	Evidencias fotográficas.
+6.6. CTA final
+Al final de la página debe aparecer:
+¿Tienes preguntas sobre el informe?
+Botón:
+Enviar una pregunta
+________________________________________
+7. Página “Capítulos del informe”
+Esta página debe ser el índice general navegable del informe.
+Objetivo
+Facilitar la consulta de la información por temas.
+Estructura
+7.1. Encabezado
+Capítulos de la Rendición de Cuentas 2025
+7.2. Texto introductorio
+Consulta el informe por capítulos. Cada sección contiene un resumen ciudadano, datos destacados, tablas, gráficos y acceso a la información completa.
+7.3. Buscador interno
+Debe incluir un campo de búsqueda:
+Buscar por tema, palabra clave o capítulo
+Ejemplos de búsqueda:
+•	PQR
+•	Urgencias
+•	Talento humano
+•	Contratación
+•	Vacunación
+•	Tutelas
+•	Satisfacción
+•	Medicamentos
+7.4. Filtros sugeridos
+Filtros por categoría:
+•	Institucional
+•	Servicios de salud
+•	Salud pública
+•	Gestión administrativa
+•	Gestión financiera
+•	Participación ciudadana
+•	Talento humano
+•	Mejoramiento institucional
+7.5. Grid de capítulos
+Cada tarjeta debe tener:
+•	Nombre del capítulo.
+•	Descripción corta.
+•	Ícono.
+•	Categoría.
+•	Botón: Ver capítulo
+________________________________________
+8. Plantilla de página individual por capítulo
+Cada capítulo debe tener una página individual con la misma estructura para mantener orden y coherencia.
+Ruta sugerida
+/rendicion-cuentas-2025/capitulos/nombre-del-capitulo
+Ejemplo:
+/rendicion-cuentas-2025/capitulos/prestacion-servicios-salud
+________________________________________
+8.1. Estructura de cada página de capítulo
+Cada capítulo debe tener:
+A. Encabezado del capítulo
+•	Nombre del capítulo.
+•	Breve descripción.
+•	Botón para volver al listado de capítulos.
+•	Botón para enviar pregunta sobre este capítulo.
+B. Resumen ciudadano
+Una explicación corta, clara y en lenguaje no técnico.
+C. Datos destacados
+Tarjetas con las cifras más importantes del capítulo.
+D. Contenido completo del capítulo
+Texto, tablas, imágenes, gráficos o documentos según corresponda.
+E. Gráficos o visualizaciones
+Cuando aplique, usar:
+•	Gráficos de barras.
+•	Gráficos de línea.
+•	Tablas comparativas.
+•	Tarjetas de datos.
+•	Infografías.
+F. Lectura ciudadana
+Un bloque donde se explique qué significan los datos para la comunidad.
+G. Documentos relacionados
+PDF, imágenes, anexos, evidencias o enlaces relacionados.
+H. Pregunta sobre este capítulo
+Al final, un bloque con CTA:
+¿Tienes una pregunta sobre este capítulo?
+Botón:
+Enviar pregunta sobre este tema
+Cuando el usuario haga clic, el formulario debe abrirse con el tema precargado.
+Ejemplo: si está en “Contratación e inversiones”, el formulario debe seleccionar automáticamente ese tema.
+________________________________________
+9. Contenido detallado por capítulo
+A continuación se especifica qué debe llevar cada capítulo.
+________________________________________
+Capítulo 1
+Plataforma estratégica
+Ruta sugerida
+/capitulos/plataforma-estrategica
+Objetivo del capítulo
+Presentar la identidad institucional del Hospital Gonzalo Contreras E.S.E., su misión, visión, organigrama y mapa de procesos.
+Contenido que debe incluir
+1. Resumen ciudadano
+En este capítulo se presenta quiénes somos como institución, cuál es nuestro propósito y hacia dónde se orienta el Hospital en los próximos años.
+2. Misión
+Incluir la misión institucional:
+Somos una institución que presta servicios de salud, con un equipo humano comprometido con la calidad, de alta capacidad resolutiva, enfocado en el trato humanizado, garantizando una atención oportuna y segura, brindando la mejor experiencia para el paciente y su familia.
+3. Visión
+Incluir la visión institucional:
+Para el año 2027, el Hospital Gonzalo Contreras E.S.E. será una institución reconocida por la excelencia en la prestación de servicios integrales de salud centrados en las personas, basados en la innovación de servicios, promoviendo acciones en la atención del usuario y su familia, fortalecidos como institución de referenciación competitiva en busca de la acreditación.
+4. Organigrama
+Debe cargarse como imagen o PDF.
+Recomendación:
+•	Permitir ampliarlo.
+•	Permitir descargarlo.
+•	Incluir texto alternativo.
+5. Mapa de procesos
+Debe cargarse como imagen o PDF.
+6. Mapa de subprocesos
+Debe cargarse si está disponible en el informe final.
+Datos destacados
+•	Institución prestadora de servicios de salud.
+•	Enfoque en calidad.
+•	Trato humanizado.
+•	Atención oportuna y segura.
+•	Proyección hacia la excelencia y acreditación.
+CTA
+Haz una pregunta sobre la plataforma estratégica del Hospital.
+________________________________________
+Capítulo 2
+Plan de Desarrollo Institucional
+Ruta sugerida
+/capitulos/plan-de-desarrollo
+Objetivo
+Presentar los avances del Plan de Desarrollo a través de sus líneas estratégicas e indicadores.
+Contenido
+1. Resumen ciudadano
+Este capítulo muestra los resultados de los principales indicadores institucionales del Hospital durante 2025, organizados por líneas estratégicas.
+2. Líneas estratégicas
+Debe organizarse por bloques:
+1.	Talento Humano
+2.	Sostenibilidad Financiera
+3.	Innovación en Salud
+4.	Calidad Institucional
+3. Tabla de indicadores
+Debe incluir una tabla con:
+•	Línea estratégica
+•	Indicador clave
+•	Resultado
+•	Meta
+•	Estado
+El estado puede ser:
+•	Cumple
+•	Supera la meta
+•	Requiere seguimiento
+•	No aplica
+4. Indicadores destacados
+Talento Humano
+•	SG-SST: 93,75% / Meta 90%
+•	Seguridad Vial PESV: 92% / Meta 50%
+•	Humanización: 80% / Meta 60%
+•	Bienestar social: 100% / Meta 100%
+•	Capacitación: 100% / Meta 100%
+•	Inducción de personal: 100% / Meta 100%
+Sostenibilidad Financiera
+•	Digitalización de procesos: 100%
+•	Plan de adquisiciones: 100%
+•	Recaudo: 61,55% / Meta 70%
+•	Ejecución presupuestal: 77% / Meta 90%
+•	Ingresos por servicios: 121% / Meta 85%
+Innovación en Salud
+•	Satisfacción del usuario: 96% / Meta 95%
+•	Oportunidad respuesta PQR: 8,5 días / Meta 15 días
+•	Seguridad del paciente: 89% / Meta 50%
+•	Plan de mejoramiento: 89% / Meta 60%
+•	Renovación tecnológica: 42% / Meta 20%
+Calidad Institucional
+•	Tableros de indicadores: 67% / Meta 60%
+•	Planes de mejoramiento: 87% / Meta 70%
+•	Cultura organizacional: 79%
+•	Responsabilidad social: 100% / Meta 80%
+•	Acreditación: 1,7 / Meta 1,2
+•	PAMEC: 92% / Meta 90%
+•	Infraestructura: 85% / Meta 70%
+5. Gráficos sugeridos
+•	Gráfico de barras por línea estratégica.
+•	Semáforo de cumplimiento.
+•	Tarjetas de indicadores destacados.
+6. Lectura ciudadana
+Durante 2025, el Hospital presentó avances relevantes en talento humano, humanización, seguridad del paciente, responsabilidad social, planes de mejoramiento, PAMEC e infraestructura. También se identifican indicadores que requieren seguimiento, como recaudo y ejecución presupuestal.
+CTA
+Haz una pregunta sobre los indicadores del Plan de Desarrollo.
+________________________________________
+Capítulo 3
+Prestación de servicios de salud
+Ruta sugerida
+/capitulos/prestacion-servicios-salud
+Objetivo
+Socializar los indicadores de oportunidad, calidad y satisfacción relacionados con la atención en salud.
+Contenido
+1. Resumen ciudadano
+Este capítulo muestra cómo se comportaron los principales indicadores de atención en salud durante 2025, comparados con años anteriores.
+2. Indicadores obligatorios
+Incluir tabla comparativa:
+Indicador	2022	2023	2024	2025
+Reingreso hospitalización	2	0	0	0
+Oportunidad consulta ambulatoria primera vez	1,57	1,51	2,52	3,3
+Oportunidad consulta odontológica	0,41	2,02	1,98	5,2
+Oportunidad urgencias triage II	16,8	13,4	16,3	15,5
+Gestión de eventos adversos	100%	100%	100%	100%
+Satisfacción de usuarios	98%	98%	99%	99,5%
+3. Tarjetas de datos
+•	Consulta ambulatoria primera vez: 3,3 días
+•	Consulta odontológica: 5,2 días
+•	Urgencias Triage II: 15,5 minutos
+•	Gestión de eventos adversos: 100%
+•	Satisfacción de usuarios: 99,5%
+•	Reingreso hospitalario: 0
+4. Gráficos sugeridos
+•	Línea comparativa de oportunidad en consulta ambulatoria.
+•	Línea comparativa de consulta odontológica.
+•	Línea o barras de urgencias Triage II.
+•	Gráfico de satisfacción de usuarios.
+5. Lectura ciudadana
+El Hospital mantuvo altos niveles de satisfacción y gestión de eventos adversos. También se observa aumento en los tiempos de consulta ambulatoria y odontológica, por lo que estos indicadores deben mostrarse como oportunidades de seguimiento y mejora.
+CTA
+Haz una pregunta sobre la atención en salud.
+________________________________________
+Capítulo 4
+Promoción, prevención y Atención Primaria en Salud
+Ruta sugerida
+/capitulos/promocion-prevencion-aps
+Objetivo
+Presentar las actividades de promoción, prevención y los resultados de los Equipos Básicos de Salud.
+Contenido
+1. Resumen ciudadano
+Este capítulo presenta las acciones realizadas para promover la salud, prevenir enfermedades y acercar los servicios a la comunidad mediante atención intramural y extramural.
+2. Actividades destacadas
+•	Club de hipertensos.
+•	Curso de preparación para la maternidad y paternidad.
+•	Actividades de promoción y prevención.
+•	Acciones territoriales.
+•	Atención por ciclos de vida.
+3. Resultados de Equipos Básicos de Salud
+Enfermería
+•	Extramural: 3.113 atenciones
+•	Intramural: 2.878 atenciones
+Debe incluir tabla desagregada con actividades como:
+•	Consulta de promoción y prevención.
+•	Laboratorio clínico.
+•	Laboratorio clínico PyP.
+•	Medicamentos POS.
+•	Procedimientos generales.
+•	Sala de procedimiento básica.
+Medicina general
+•	Extramural: 2.930 atenciones
+•	Intramural: 14.750 atenciones
+Actividades:
+•	Consulta de medicina general.
+•	Consulta de promoción y prevención.
+•	Laboratorio clínico.
+•	Laboratorio clínico PyP.
+Psicología
+•	Extramural: 7.325 atenciones
+Actividades:
+•	Visita domiciliaria por psicología.
+•	Visita domiciliaria por trabajo social.
+•	Consulta de control o seguimiento.
+•	Consulta de primera vez.
+•	Educación individual en salud.
+•	Psicoterapia de grupo.
+•	Psicoterapia familiar.
+•	Psicoterapia individual.
+Profesionales complementarios
+Incluir acciones de:
+•	Odontología.
+•	Higienista oral.
+•	Terapia física.
+•	Fonoaudiología.
+•	Terapia ocupacional.
+•	Terapia respiratoria.
+4. Gráficos sugeridos
+•	Barras comparativas intramural vs extramural.
+•	Gráfico por profesión.
+•	Mapa o visual de cobertura territorial.
+5. Lectura ciudadana
+Los Equipos Básicos de Salud fortalecen la atención primaria y permiten acercar los servicios a la comunidad, especialmente mediante actividades extramurales, visitas, educación en salud y acciones preventivas.
+CTA
+Haz una pregunta sobre promoción, prevención o APS.
+________________________________________
+Capítulo 5
+Vacunación y salud pública
+Ruta sugerida
+/capitulos/vacunacion-salud-publica
+Objetivo
+Socializar las acciones del Programa Ampliado de Inmunizaciones y las actividades de salud pública implementadas durante la vigencia.
+Contenido
+1. Resumen ciudadano
+Este capítulo presenta las actividades desarrolladas para proteger la salud de la comunidad mediante vacunación, prevención y acciones colectivas en salud pública.
+2. Programa Ampliado de Inmunizaciones
+Incluir:
+•	Semana de Vacunación de las Américas.
+•	Vacunación con neumococo.
+•	Jornada de vacunación mes de octubre.
+•	Jornadas en hogares del ICBF.
+•	Estrategias de motivación.
+•	Reconocimiento PAI: primer lugar por compromiso con la vacunación exitosa en noviembre de 2025.
+3. Plan de Intervenciones Colectivas
+Organizar por componentes:
+•	Convivencia social y salud mental.
+•	Enfermedades no transmisibles.
+•	Nutrición.
+•	Salud ambiental.
+•	Enfermedades transmisibles.
+•	Derechos sexuales y reproductivos.
+4. Otras actividades de salud pública
+Incluir:
+•	Día de la prevención del cáncer de cuello uterino.
+•	Jornada Rosa.
+•	Salud oral: “Soy Generación más Sonriente”.
+•	IAMI.
+•	Prevención para el no uso de pólvora.
+•	Semana Andina.
+•	Día mundial de la lucha contra el VIH-SIDA.
+5. Material visual
+Debe permitir cargar:
+•	Fotografías.
+•	Galerías.
+•	Evidencias.
+•	Piezas gráficas.
+•	Videos cortos, si existen.
+6. Lectura ciudadana
+Las acciones de vacunación y salud pública contribuyen a la prevención de enfermedades, la educación comunitaria y el cuidado colectivo de la salud.
+CTA
+Haz una pregunta sobre vacunación o salud pública.
+________________________________________
+Capítulo 6
+Caracterización de usuarios
+Ruta sugerida
+/capitulos/caracterizacion-usuarios
+Objetivo
+Presentar información sobre la población asignada y atendida por el Hospital.
+Contenido
+1. Resumen ciudadano
+Este capítulo permite conocer la población que atiende el Hospital, su distribución por EPS, régimen de aseguramiento y características poblacionales.
+2. Pirámide poblacional
+Debe incluir la gráfica de pirámide poblacional atendida por edad y sexo.
+Recomendaciones técnicas:
+•	Si la gráfica viene en imagen, cargarla en alta calidad.
+•	Si los datos están disponibles en Excel, construirla dinámicamente.
+•	Permitir ampliarla en modal.
+3. Población asignada por EPS
+Incluir tabla:
+EPS	Contributivo	Subsidiado	Total asignados
+Nueva EPS	6.021	11.941	17.962
+Compensar	486	2.400	2.886
+SOS	300	222	522
+Coosalud	1.094	8.425	9.519
+Total	7.901	22.988	30.889
+4. Gráficos sugeridos
+•	Gráfico circular por EPS.
+•	Barras por régimen contributivo y subsidiado.
+•	Tarjeta con total de usuarios asignados.
+5. Lectura ciudadana
+El Hospital cuenta con 30.889 usuarios asignados, con mayor presencia del régimen subsidiado. Nueva EPS y Coosalud concentran la mayor población asignada.
+CTA
+Haz una pregunta sobre la población atendida.
+________________________________________
+Capítulo 7
+Morbilidad y mortalidad
+Ruta sugerida
+/capitulos/morbilidad-mortalidad
+Objetivo
+Presentar las principales causas de consulta externa, urgencias, hospitalización y mortalidad.
+Contenido
+1. Resumen ciudadano
+Este capítulo muestra cuáles fueron las principales enfermedades o causas por las que las personas consultaron o fueron atendidas durante 2025.
+2. Morbilidad en consulta externa
+Incluir tabla con los principales diagnósticos:
+•	Hipertensión esencial primaria: 3.941
+•	Hipotiroidismo no especificado: 1.058
+•	Lumbago no especificado: 686
+•	Infección de vías urinarias: 647
+•	Hiperlipidemia no especificada: 615
+•	Dolor en articulación: 594
+•	Diabetes mellitus no insulinodependiente: 579
+•	Insuficiencia venosa: 489
+•	Síndrome de colon irritable: 468
+•	Hiperplasia de próstata: 446
+3. Morbilidad en urgencias
+Incluir:
+•	Infección viral no especificada: 1.484
+•	Rinofaringitis aguda: 1.278
+•	Infección de vías urinarias: 709
+•	Otros dolores abdominales: 705
+•	Gastroenteritis y colitis de origen infeccioso: 671
+•	Gastroenteritis y colitis de origen no especificado: 622
+•	Lumbago: 536
+•	Amigdalitis aguda: 459
+•	Migraña: 420
+•	Gastritis: 398
+4. Morbilidad en hospitalización adultos
+Incluir:
+•	Infección de vías urinarias: 193
+•	Enfermedad pulmonar obstructiva: 53
+•	Absceso cutáneo: 34
+•	Celulitis: 32
+•	Bronconeumonía: 28
+•	Neumonía: 27
+•	Infección respiratoria aguda: 6
+•	Dengue: 4
+•	Hemorragias gastrointestinales: 4
+•	Úlceras miembros inferiores: 4
+5. Mortalidad
+Incluir principales causas:
+•	Infarto agudo de miocardio: 44
+•	Tumores malignos: 36
+•	Heridas por arma de fuego: 32
+•	Enfermedad pulmonar obstructiva crónica: 16
+•	Neumonías: 16
+•	Accidentes de tránsito: 14
+•	Hipertensión arterial: 13
+•	Diabetes mellitus: 9
+•	Enfermedades isquémicas del corazón: 6
+•	Otros tipos de accidentes: 6
+6. Gráficos sugeridos
+•	Ranking de barras horizontales.
+•	Separación por consulta externa, urgencias, hospitalización y mortalidad.
+•	Filtros internos por servicio.
+7. Lectura ciudadana
+Las enfermedades crónicas, cardiovasculares, respiratorias, infecciosas y causas externas aparecen como temas prioritarios para orientar acciones de prevención, educación y atención oportuna.
+CTA
+Haz una pregunta sobre morbilidad o mortalidad.
+________________________________________
+Capítulo 8
+Contratación e inversiones
+Ruta sugerida
+/capitulos/contratacion-inversiones
+Objetivo
+Presentar de manera transparente las principales contrataciones e inversiones realizadas durante 2025.
+Contenido
+1. Resumen ciudadano
+Este capítulo muestra algunos de los recursos destinados al funcionamiento, fortalecimiento institucional y prestación de servicios del Hospital.
+2. Tabla de inversiones
+Incluir:
+Concepto	Inversión
+Suministro de insumos y medicamentos	$1.255.000.000
+Ayudas diagnósticas II nivel	$472.678.878
+Adquisición equipos biomédicos y laboratorio	$199.924.260
+Licencia de software SIHOS y mantenimiento	$85.800.000
+Pólizas de seguros E.S.E.	$319.714.196
+Adecuación menor tanque de agua	$402.425.610
+Mantenimiento instalaciones E.S.E.	$91.900.000
+Mantenimiento equipos biomédicos	$77.441.695
+Medicina especializada	$654.304.985
+Personal Equipos Básicos	$1.733.875.000
+Talento humano	$8.514.039.407
+3. Gráficos sugeridos
+•	Barras horizontales por inversión.
+•	Tarjetas por categoría.
+•	Sección destacada para talento humano, medicamentos e insumos, medicina especializada y equipos básicos.
+4. Funcionalidad recomendada
+Permitir que cada inversión tenga:
+•	Nombre del contrato o proceso.
+•	Objeto.
+•	Valor.
+•	Estado.
+•	Vigencia.
+•	Documento soporte, si se decide publicar.
+5. Lectura ciudadana
+La contratación permite conocer cómo se destinaron los recursos para garantizar medicamentos, insumos, personal, servicios especializados, mantenimiento, software, equipos e infraestructura.
+CTA
+Haz una pregunta sobre contratación o inversiones.
+________________________________________
+Capítulo 9
+Aspectos financieros
+Ruta sugerida
+/capitulos/aspectos-financieros
+Objetivo
+Presentar la información financiera de la entidad y la gestión de los recursos.
+Contenido
+PENDIENTE
+Capítulo 10
+Satisfacción de usuarios, PQR y participación ciudadana
+Ruta sugerida
+/capitulos/satisfaccion-pqr-participacion
+Objetivo
+Mostrar el comportamiento de la satisfacción de usuarios, PQR y mecanismos de participación ciudadana.
+Contenido
+1. Resumen ciudadano
+Este capítulo presenta cómo se comportaron las peticiones, quejas, reclamos, sugerencias y felicitaciones durante 2025, así como los espacios de participación ciudadana.
+2. Tabla PQR
+Tipo	2024	2025	Lectura
+Quejas	87	20	Disminución aproximada del 77%
+Reclamos	0	24	Aumento posiblemente asociado a mejor clasificación o mayor uso de canales
+Peticiones	0	1	Nivel bajo
+Sugerencias	7	1	Disminución
+Felicitaciones	6	7	Leve incremento
+3. Satisfacción de usuarios
+Año	Satisfacción
+2022	98%
+2023	98%
+2024	99%
+2025	99,5%
+4. Asociación de Usuarios vigente
+Incluir tabla:
+•	Presidente: Nelson Gómez Montoya
+•	Vicepresidente: Blanca Ligia Bueno Sánchez
+•	Secretaria: Edna Margarita Zapata
+•	Fiscal: María Geise Segura
+•	COPACO: José Orlando Castro Eusse
+•	Tesorera: Trinidad García Gonzales
+•	CTSSS: María Aseneth Giraldo
+5. Logros del trabajo conjunto
+•	Asamblea General de la Asociación de Usuarios.
+•	Elección del nuevo presidente y secretaria.
+•	Banquete.
+•	Jornadas de socialización, orientación y escucha activa sobre derechos y deberes de los usuarios.
+6. Gráficos sugeridos
+•	Barras comparativas PQR 2024 vs 2025.
+•	Línea de satisfacción 2022-2025.
+•	Tarjeta destacada de reducción de quejas.
+7. Lectura ciudadana
+La reducción de quejas y el alto nivel de satisfacción muestran avances en la percepción de los usuarios. Sin embargo, el comportamiento de reclamos y sugerencias permite identificar oportunidades para fortalecer los canales de participación y escucha.
+CTA
+Haz una pregunta sobre PQR o satisfacción de usuarios.
+________________________________________
+Capítulo 11
+Tutelas y atención prioritaria
+Ruta sugerida
+/capitulos/tutelas-atencion-prioritaria
+Objetivo
+Presentar el comportamiento de tutelas y los mecanismos de atención prioritaria o preferencial.
+Contenido
+1. Resumen ciudadano
+Este capítulo muestra las acciones de tutela vinculadas al Hospital y las estrategias de atención prioritaria para poblaciones con derechos de atención preferencial.
+2. Tabla de tutelas
+Año	Tutelas
+2024	51
+2025	71
+3. Texto explicativo
+Incluir que las acciones de tutela fueron presentadas por usuarios ante jueces constitucionales por presunta vulneración a derechos fundamentales a la salud y vida digna contra diferentes EPS, vinculando al Hospital Gonzalo Contreras E.S.E.
+4. Mecanismos de atención prioritaria
+Incluir:
+•	Atención prioritaria a embarazadas.
+•	Atención prioritaria a niños.
+•	Atención prioritaria a adultos mayores.
+•	Atención prioritaria a personas con discapacidad.
+•	Orientación al usuario.
+•	Acompañamiento en rutas de atención.
+•	Atención sin barreras.
+5. Estrategias para mejorar atención al usuario
+•	Reestructuración de canales y horarios de citas.
+•	Atención por teléfono.
+•	Atención por APP.
+•	Atención presencial.
+•	Acompañamiento por orientadoras.
+•	Agendas abiertas.
+•	Atención de medicina general los sábados.
+•	Seguimiento del desempeño de funcionarios.
+6. Lectura ciudadana
+Aunque se reportan niveles altos de satisfacción, el aumento de tutelas requiere seguimiento institucional, articulación con EPS y fortalecimiento de la orientación al usuario.
+CTA
+Haz una pregunta sobre tutelas o atención prioritaria.
+________________________________________
+Capítulo 12
+Talento humano
+Ruta sugerida
+/capitulos/talento-humano
+Objetivo
+Socializar la información relacionada con el personal del Hospital, modalidades de contratación, fortalecimiento institucional y acciones orientadas al bienestar y desarrollo del equipo humano.
+Contenido
+1. Resumen ciudadano
+Este capítulo presenta las acciones relacionadas con el personal del Hospital, su fortalecimiento, bienestar, procesos internos y condiciones laborales.
+2. Información de personal
+Debe incluir:
+•	Personal de planta.
+•	Modalidades de contratación.
+•	Recurso humano vigencia 2025.
+•	Tablas o gráficos según el informe final.
+3. Hecho destacado
+Incluir:
+Se gestionó ante la junta directiva y desde el desarrollo técnico, gerencial, presupuestal y financiero el aumento salarial del 7,2% para el año 2026, a pesar de la situación financiera generada por el aumento de la cartera en el sector salud.
+4. Acciones institucionales
+•	Fortalecimiento de comités institucionales.
+•	Mejoramiento de procesos internos.
+•	Reorientación de funciones y procedimientos.
+•	Mayor seguimiento y control.
+•	Inicio de procesos de calidad basados en estándares de acreditación.
+•	Mejoramiento del desarrollo por áreas.
+•	Mejoramiento del análisis por puesto de trabajo.
+5. Gráficos sugeridos
+•	Distribución del personal por modalidad de contratación.
+•	Tarjeta de aumento salarial.
+•	Indicadores de bienestar, capacitación e inducción.
+6. Lectura ciudadana
+El talento humano es un eje central de la gestión del Hospital, ya que impacta directamente la calidad, oportunidad, humanización y seguridad en la prestación de los servicios.
+CTA
+Haz una pregunta sobre talento humano.
+________________________________________
+Capítulo 13
+Plan Anticorrupción y Atención al Ciudadano
+Ruta sugerida
+/capitulos/plan-anticorrupcion
+Objetivo
+Presentar las acciones relacionadas con transparencia, prevención de riesgos de corrupción y atención al ciudadano.
+Contenido
+1. Resumen ciudadano
+Este capítulo permite conocer las acciones institucionales orientadas a la transparencia, la prevención de riesgos y la atención al ciudadano.
+2. Información principal
+Incluir:
+Antes del 31 de enero de 2025, el Hospital Gonzalo Contreras E.S.E. diseñó y publicó en su sitio web oficial el Plan Anticorrupción y de Atención al Ciudadano, PAAC. Anexo a este, se diseñó el Mapa de Riesgos de Corrupción, dando cumplimiento al artículo 73 de la Ley 1474 de 2011.
+3. Documentos relacionados
+•	Plan Anticorrupción y de Atención al Ciudadano.
+•	Mapa de Riesgos de Corrupción.
+•	Enlace a publicación oficial, si existe.
+•	PDF descargable.
+4. Lectura ciudadana
+Este componente fortalece la transparencia institucional y permite que la ciudadanía conozca las acciones preventivas frente a riesgos de corrupción y atención al ciudadano.
+CTA
+Haz una pregunta sobre transparencia o Plan Anticorrupción.
+________________________________________
+Capítulo 14
+Informe de gestión, logros y acciones de mejora
+Ruta sugerida
+/capitulos/informe-gestion-logros-mejora
+Objetivo
+Presentar los principales avances, logros, dificultades, acciones de mejora y avances por servicio.
+Contenido
+1. Resumen ciudadano
+Este capítulo recoge los principales avances de la gestión 2025, especialmente en el mejoramiento de servicios, calidad, infraestructura, tecnología, talento humano y atención al usuario.
+2. Avances por servicio
+Debe organizarse por tarjetas o acordeones.
+Promoción y Prevención
+Se cuenta con equipo de médicos, enfermeras profesionales y auxiliares de enfermería, organizados por ciclos de vida, con procedimientos revisados para la ejecución de rutas y programas.
+SIAU
+Apoyo y gestión de autorizaciones, incremento de encuestas de satisfacción, respuesta oportuna de PQRS, planes de mejora y humanización en el servicio.
+Laboratorio
+Adquisición de equipos biomédicos y avances con equipos tecnológicos.
+Imágenes diagnósticas
+Toma de ecografías, oportunidad en entrega de resultados a 24 horas, priorización en diagnósticos críticos y agilidad en toma de muestras.
+Farmacia
+Optimización de disponibilidad de medicamentos y auditorías externas.
+Consulta externa
+Ampliación de horarios, fortalecimiento de humanización, seguridad, adopción de guías, auditorías a historias clínicas y planes de mejora.
+Psicología
+Agenda disponible para usuarios de diferentes EPS y fortalecimiento del programa de servicios amigables.
+Terapias físicas
+Reorganización de actividades para mejorar oportunidad en la atención.
+Odontología
+Jornadas de valoración odontológica y actividades de promoción y prevención en hogares infantiles e instituciones educativas.
+Tecnología y mantenimiento
+Apoyo de equipo de ingenieros biomédicos para mantenimiento preventivo y correctivo de equipos.
+Urgencias y hospitalización
+Equipo médico de urgencias, ajustes de horarios para picos de atención y priorización de pacientes de zona rural, adultos mayores y primera infancia.
+3. Avances institucionales generales
+Incluir:
+•	Inicio de procesos de calidad basados en estándares de acreditación.
+•	Diagnóstico de procesos internos.
+•	Ajuste de actividades por áreas.
+•	Manejo de indicadores.
+•	Fortalecimiento de capacitación.
+•	Mejoramiento del clima organizacional.
+•	Manejo de residuos.
+•	Mejoramiento del PGIRASA.
+•	Apertura de servicios de medicina especializada.
+•	Adquisición de equipos biomédicos.
+•	Mejoramiento de infraestructura.
+•	Proyectos de inversión para tanque de almacenamiento de agua.
+•	Inversión en sala de partos.
+•	Mejoramiento de redes y sistemas.
+4. Secciones adicionales
+El desarrollador debe dejar espacio para:
+•	Logros importantes.
+•	Dificultades.
+•	Acciones de mejora.
+•	Seguridad del paciente.
+•	Evidencias fotográficas.
+5. Lectura ciudadana
+Este capítulo permite mostrar los avances más cercanos a la experiencia diaria de los usuarios: citas, urgencias, laboratorio, imágenes diagnósticas, farmacia, odontología, psicología, infraestructura y atención al usuario.
+CTA
+Haz una pregunta sobre logros, dificultades o acciones de mejora.
+________________________________________
+10. Página “Participa con tu pregunta”
+Esta página debe contener el formulario completo.
+Ruta sugerida
+/participa
+Objetivo
+Recibir preguntas ciudadanas sobre la Rendición de Cuentas 2025.
+________________________________________
+10.1. Encabezado
+Participa con tu pregunta
+Texto introductorio
+Tu opinión es importante para seguir mejorando. Después de consultar el informe, puedes enviar tus preguntas, observaciones o inquietudes sobre la gestión 2025 del Hospital Gonzalo Contreras E.S.E.
+________________________________________
+10.2. Campos del formulario
+Campo 1
+Nombre completo
+Tipo: texto
+Obligatorio: no
+Campo 2
+Correo electrónico
+Tipo: email
+Obligatorio: no
+Campo 3
+Teléfono de contacto
+Tipo: número o texto
+Obligatorio: no
+Campo 4
+Barrio o vereda
+Tipo: texto
+Obligatorio: no
+Campo 5
+Tema de la pregunta
+Tipo: lista desplegable
+Obligatorio: sí
+Opciones:
+•	Plataforma estratégica
+•	Plan de Desarrollo
+•	Prestación de servicios de salud
+•	Promoción y prevención
+•	Atención Primaria en Salud
+•	Vacunación y salud pública
+•	Caracterización de usuarios
+•	Morbilidad y mortalidad
+•	Contratación e inversiones
+•	Aspectos financieros
+•	Satisfacción de usuarios y PQR
+•	Tutelas y atención prioritaria
+•	Talento humano
+•	Plan Anticorrupción
+•	Informe de gestión
+•	Otro
+Campo 6
+Escribe tu pregunta
+Tipo: área de texto
+Obligatorio: sí
+Campo 7
+¿Deseas que tu pregunta sea respondida públicamente durante la jornada de diálogo?
+Tipo: selección
+Opciones:
+•	Sí
+•	No
+•	Me es indiferente
+Campo 8
+Autorización de tratamiento de datos personales
+Tipo: checkbox
+Obligatorio: sí
+Texto sugerido:
+Autorizo el tratamiento de mis datos personales únicamente para fines relacionados con la Rendición de Cuentas 2025 del Hospital Gonzalo Contreras E.S.E.
+________________________________________
+10.3. Funcionalidades del formulario
+El formulario debe:
+•	Validar campos obligatorios.
+•	Evitar envíos vacíos.
+•	Tener protección antispam.
+•	Mostrar mensaje de confirmación.
+•	Guardar fecha y hora del envío.
+•	Guardar IP o identificador técnico si el equipo jurídico lo autoriza.
+•	Permitir exportar preguntas en Excel o CSV.
+•	Enviar copia al correo institucional designado.
+•	Clasificar automáticamente por tema.
+•	Permitir identificar si la pregunta llegó desde web, QR o capítulo específico.
+________________________________________
+10.4. Mensaje de confirmación
+Después de enviar, debe aparecer:
+Tu pregunta fue enviada correctamente. Gracias por participar en la Rendición de Cuentas 2025 del Hospital Gonzalo Contreras E.S.E.
+Botones posteriores:
+•	Volver al inicio
+•	Consultar informe completo
+•	Enviar otra pregunta
+12. Administración del micrositio
+El desarrollador debe definir si el micrositio tendrá panel administrador o si se cargará como sitio estático.
+Recomendación
+Debe tener algún sistema de administración básico para actualizar:
+•	Fechas del cronograma.
+•	PDF del informe completo.
+•	Documentos anexos.
+•	Preguntas recibidas.
+•	Capítulos.
+•	Imágenes.
+•	Enlaces.
+•	QR.
+•	Estado del formulario.
+Usuarios administradores
+Debe existir mínimo un usuario administrador para:
+•	Comunicaciones.
+•	Sistemas.
+•	Gerencia o área encargada.
+Permisos sugeridos
+Administrador total
+Puede editar todo.
+Editor de contenido
+Puede editar textos, imágenes y documentos.
+Revisor
+Puede ver preguntas y exportar datos, pero no modificar diseño.
+________________________________________
+13. Base de datos o almacenamiento de preguntas
+Si el desarrollador usa base de datos, la tabla de preguntas debe tener mínimo:
+•	ID
+•	Nombre
+•	Correo
+•	Teléfono
+•	Barrio o vereda
+•	Tema
+•	Pregunta
+•	Desea respuesta pública
+•	Autorización de datos
+•	Fecha de envío
+•	Hora de envío
+•	Fuente de envío
+•	Estado de revisión
+•	Observaciones internas
+•	Respuesta institucional
+•	Respondida en audiencia: sí/no
+Estados sugeridos
+•	Recibida
+•	En revisión
+•	Clasificada
+•	Respondida
+•	Pendiente por responder
+•	No aplica
+________________________________________
+14. Códigos QR
+El micrositio debe generar o permitir usar enlaces para QR.
+QR principales
+1.	QR al micrositio principal.
+2.	QR al informe completo.
+3.	QR al formulario de preguntas.
+4.	QR al capítulo de contratación e inversiones.
+5.	QR al capítulo de satisfacción y PQR.
+Uso de los QR
+Estos QR se usarán en:
+•	Muro físico del Hospital.
+•	Carruseles de redes sociales.
+•	Boletín impreso.
+•	Piezas institucionales.
+•	Invitaciones.
+•	Pantallas internas, si aplica.
+________________________________________
+15. Diseño responsive
+El micrositio debe funcionar correctamente en:
+•	Celular.
+•	Tablet.
+•	Computador.
+•	Pantallas institucionales.
+Prioridad
+La experiencia móvil debe ser prioritaria, porque muchos usuarios accederán desde QR o redes sociales.
+Requerimientos móviles
+•	Botones grandes.
+•	Textos legibles.
+•	Formularios fáciles de completar.
+•	Menú hamburguesa.
+•	Tarjetas apiladas.
+•	Tablas adaptables con scroll horizontal.
+•	Gráficos legibles.
+________________________________________
+16. Accesibilidad
+El desarrollador debe garantizar:
+•	Contraste suficiente entre texto y fondo.
+•	Tamaño de letra mínimo recomendado: 16 px.
+•	Textos alternativos en imágenes.
+•	Navegación por teclado.
+•	Botones con etiquetas claras.
+•	Formularios con labels.
+•	Mensajes de error comprensibles.
+•	No depender únicamente del color para comunicar estados.
+•	Compatibilidad básica con lectores de pantalla.
+________________________________________
+17. Recomendaciones de diseño visual
+El micrositio debe verse institucional, moderno, limpio y ciudadano.
+Paleta sugerida
+•	Azul institucional.
+•	Verde salud.
+•	Blanco.
+•	Gris claro.
+•	Azul oscuro para textos principales.
+Estilo
+•	Tarjetas con bordes redondeados.
+•	Íconos lineales.
+•	Fotografías reales del Hospital.
+•	Gráficas limpias.
+•	Tablas simplificadas.
+•	Espacios amplios.
+•	Poca saturación visual.
+Evitar
+•	Páginas cargadas de texto corrido.
+•	Tablas gigantes sin adaptación móvil.
+•	PDF como única forma de consulta.
+•	Colores demasiado fuertes.
+•	Uso excesivo de mayúsculas.
+•	Lenguaje técnico sin explicación ciudadana.
+________________________________________
+18. Funcionalidades técnicas mínimas
+El micrositio debe incluir:
+1.	Navegación clara.
+2.	Descarga de PDF.
+3.	Visor de informe completo.
+4.	Páginas por capítulo.
+5.	Buscador de capítulos.
+6.	Formulario de preguntas.
+7.	Almacenamiento de respuestas.
+8.	Exportación de preguntas.
+9.	Diseño responsive.
+10.	Integración con QR.
+11.	Botones para compartir.
+12.	Enlaces institucionales.
+13.	Footer con datos de contacto.
+14.	Protección antispam.
+15.	Certificado SSL.
+________________________________________
+19. Funcionalidades deseables
+No son obligatorias, pero serían útiles:
+•	Panel de administración.
+•	Contador público de preguntas recibidas.
+•	Dashboard interno de preguntas por tema.
+•	Buscador dentro del informe.
+•	Modo alto contraste.
+•	Botón de accesibilidad.
+•	Analítica de visitas.
+•	Registro de clics en descarga del informe.
+•	Registro de clics por capítulo.
+•	Exportación automática a Google Sheets.
+•	Notificación automática al correo de comunicaciones.
+•	Página posterior con respuestas oficiales.
+________________________________________
+20. Analítica del micrositio
+El desarrollador debe dejar instalado un sistema de medición, puede ser Google Analytics, Matomo u otro aprobado por el Hospital.
+Métricas a medir
+•	Visitas al micrositio.
+•	Descargas del informe completo.
+•	Capítulos más consultados.
+•	Clics en formulario.
+•	Preguntas enviadas.
+•	Dispositivo de acceso: móvil, computador, tablet.
+•	Fuente de tráfico: redes, QR, web institucional.
+•	Tiempo promedio de permanencia.
+•	Tasa de abandono del formulario.
+Esto servirá para el informe posterior de participación ciudadana.
+________________________________________
+21. Seguridad y protección de datos
+El desarrollador debe implementar:
+•	Certificado HTTPS.
+•	Validación de formularios.
+•	Protección contra spam.
+•	Sanitización de campos de texto.
+•	Protección contra inyección de código.
+•	No mostrar datos personales públicamente.
+•	Almacenamiento seguro de preguntas.
+•	Acceso restringido al panel administrativo.
+•	Copias de seguridad.
+•	Política de tratamiento de datos visible.
+________________________________________
+22. Footer institucional
+El footer debe aparecer en todas las páginas.
+Elementos del footer
+•	Logo del Hospital.
+•	Nombre completo: Hospital Gonzalo Contreras E.S.E.
+•	Dirección.
+•	Teléfono.
+•	Correo institucional.
+•	Sitio web oficial.
+•	Redes sociales.
+•	Horarios de atención.
+•	Enlace a política de tratamiento de datos.
+•	Enlace al informe completo.
+•	Texto: Micrositio de consulta ciudadana – Rendición de Cuentas 2025
+________________________________________
+23. Entregables esperados del desarrollador
+El desarrollador debe entregar:
+1.	Micrositio publicado en ambiente de pruebas.
+2.	Micrositio publicado en ambiente final.
+3.	Estructura de páginas completa.
+4.	Informe PDF cargado y descargable.
+5.	Capítulos cargados.
+6.	Formulario funcional.
+7.	Base de datos o repositorio de preguntas.
+8.	Exportación de preguntas.
+9.	QR funcionales.
+10.	Versión responsive.
+11.	Manual corto de administración.
+12.	Accesos administrativos.
+13.	Copia de seguridad inicial.
+14.	Validación de seguridad básica.
+15.	Prueba de envío de preguntas.
+16.	Prueba de descarga del informe.
+17.	Prueba de navegación móvil.
+________________________________________
+24. Criterios de aceptación
+El micrositio se considerará listo cuando cumpla lo siguiente:
+•	El informe completo se puede consultar y descargar.
+•	Todos los capítulos son navegables.
+•	El formulario recibe preguntas correctamente.
+•	Las preguntas quedan almacenadas.
+•	Se pueden exportar las preguntas.
+•	El sitio carga bien en celular.
+•	Los QR dirigen correctamente.
+•	Los textos son legibles.
+•	Las tablas se visualizan correctamente.
+•	El menú funciona.
+•	El footer aparece en todas las páginas.
+•	El micrositio tiene certificado de seguridad.
+•	El equipo de comunicaciones puede actualizar contenido básico.
+•	El equipo puede consultar las preguntas recibidas.
+________________________________________
+25. Recomendación final de arquitectura
+La mejor estructura sería:
+Página principal
+Resumen, indicadores, capítulos, participación y cronograma.
+Informe completo
+PDF oficial y anexos.
+Capítulos
+Índice navegable.
+Página por capítulo
+Información detallada, resumen ciudadano, datos, gráficos y CTA de pregunta.
+Participa
+Formulario completo.
+Preguntas
+Tablero de preguntas recibidas o preguntas frecuentes.
+________________________________________
+26. Mensaje clave para el desarrollador
+El micrositio no debe ser simplemente una página para subir un PDF. Debe ser una herramienta de consulta ciudadana. El informe completo debe estar disponible de manera oficial, pero la información debe estar organizada por capítulos para que la comunidad pueda entenderla, consultarla y participar con preguntas antes de la jornada de diálogo.
+La prioridad es que cualquier persona pueda entrar desde un QR, entender rápidamente de qué trata la Rendición de Cuentas 2025, consultar el informe completo, revisar los temas principales y enviar su pregunta sin dificultad.
+
+

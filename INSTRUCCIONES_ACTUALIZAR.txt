@@ -1,0 +1,13 @@
+ABRIR ESTA CARPETA EN VS CODE
+
+PARA VER LOCALHOST:
+npm install
+npm run dev
+
+ABRIR:
+http://localhost:5173
+
+PARA ACTUALIZAR EN GITHUB / VERCEL:
+git add .
+git commit -m "Nueva version premium HGC"
+git push

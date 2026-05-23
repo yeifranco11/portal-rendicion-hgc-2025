@@ -1,0 +1,16 @@
+1. ABRIR LA CARPETA EN VS CODE
+
+2. ABRIR TERMINAL
+
+3. EJECUTAR:
+
+npm install
+
+4. LUEGO:
+
+npm run dev
+
+5. ABRIR:
+
+http://localhost:5173
+

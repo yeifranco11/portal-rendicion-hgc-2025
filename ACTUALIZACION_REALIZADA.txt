@@ -1,0 +1,1 @@
+Actualización aplicada: el Panel admin queda oculto y solo muestra la tabla al ingresar la clave rendicion.hgc11. Se corrigió el render createRoot. El resto del portal se conserva igual.

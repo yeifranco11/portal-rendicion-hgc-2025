@@ -2,12 +2,14 @@ import React,{useMemo,useState,useEffect}from'react';
 import{createRoot}from'react-dom/client';
 import{Activity,BarChart3,BookOpen,Building2,CalendarDays,CheckCircle2,ChevronRight,ClipboardList,Download,FileQuestion,FileText,HeartPulse,Home,LineChart,Mail,Menu,MessageCircle,Phone,Search,ShieldCheck,Stethoscope,Users,WalletCards,X,Send,Database,Trash2,Eye,Table2,Target,HeartHandshake,HandCoins,FileCheck2}from'lucide-react';
 import'./styles.css';
+import { supabase } from './supabase';
 
 const A='/assets/';
 const EMAIL_SISTEMAS='sistemas@hospitalgonzalocontreras.gov.co';
 const FORM_ENDPOINT=`https://formsubmit.co/${EMAIL_SISTEMAS}`;
 const COLORS=['#0071bc','#2196f3','#91d4fa','#16a085','#b30000','#ce4b5e','#0b376d','#f2b705'];
 const GALLERY_IMAGES=["/assets/galeria-final/galeria_01_ambulancias.jpg", "/assets/galeria-final/galeria_02.jpg", "/assets/galeria-final/galeria_03.jpg", "/assets/galeria-final/galeria_04.jpg", "/assets/galeria-final/galeria_05.jpg", "/assets/galeria-final/galeria_06.jpg", "/assets/galeria-final/galeria_07.jpg", "/assets/galeria-final/galeria_08.jpg", "/assets/galeria-final/galeria_09.jpg", "/assets/galeria-final/galeria_10.jpg", "/assets/galeria-final/ppt_11.jpg", "/assets/galeria-final/ppt_12.jpg", "/assets/galeria-final/ppt_13.jpg", "/assets/galeria-final/ppt_14.jpg", "/assets/galeria-final/ppt_15.jpg", "/assets/galeria-final/ppt_16.jpg", "/assets/galeria-final/ppt_17.jpg", "/assets/galeria-final/ppt_18.jpg", "/assets/galeria-final/ppt_19.jpg", "/assets/galeria-final/ppt_20.jpg", "/assets/galeria-final/ppt_21.jpg", "/assets/galeria-final/ppt_22.jpg", "/assets/galeria-final/ppt_23.jpg", "/assets/galeria-final/ppt_24.jpg", "/assets/galeria-final/ppt_25.jpg", "/assets/galeria-final/ppt_26.jpg", "/assets/galeria-final/ppt_27.jpg", "/assets/galeria-final/ppt_28.jpg", "/assets/galeria-final/ppt_29.jpg", "/assets/galeria-final/ppt_30.jpg"];
+
 
 
 const indicadores=[
@@ -58,7 +60,47 @@ function ChapterCard({c}){const Icon=iconMap[c.icon]||FileText;return <a classNa
 function ChapterDetail({c}){return <section className="chapterDetail" id={'capitulo-'+c.id}><div className="detailHead"><a href="#capitulos">← Volver a capítulos</a><h2>{c.title}</h2><p>{c.summary}</p><a className="miniBtn" href={'#participa'} onClick={()=>sessionStorage.setItem('temaHGC',c.title)}>Enviar pregunta sobre este tema</a></div><div className="highs">{c.high.map(h=><div key={h}><CheckCircle2/>{h}</div>)}</div><div className="detailGrid"><div className="panel"><h3><Table2/> Información principal</h3><DataTable data={c.table}/>{c.subsections?.map((s,i)=><div key={i} className="subsec"><h3>{s.title}</h3>{s.text&&<p>{s.text}</p>}{s.table&&<DataTable data={s.table}/>}</div>)}</div><div className="reading"><h3><Eye/> Lectura ciudadana</h3><p>{c.read}</p>{c.chart&&<Chart data={c.chart}/>}<div className="docs"><a href="/docs/RENDICION-DE-CUENTAS-2025-HGC.pdf" download>Descargar informe completo</a><a href="#participa" onClick={()=>sessionStorage.setItem('temaHGC',c.title)}>Pregunta sobre este capítulo</a></div></div></div></section>}
 function DataTable({data}){if(!data?.length)return null;const[head,...rows]=data;return <div className="tableBox"><table><thead><tr>{head.map(h=><th key={h}>{h}</th>)}</tr></thead><tbody>{rows.map((r,i)=><tr key={i}>{r.map((cell,j)=><td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>}
 function Chart({data}){if(!Array.isArray(data)||!data.length)return null;const keys=Object.keys(data[0]).filter(k=>k!=='name');if(keys.length>1){return <div className="chart simpleChart">{keys.map((k,i)=><div className="chartGroup" key={k}><b>{k}</b>{data.map((d,j)=>{const value=Number(d[k])||0;const max=Math.max(...data.map(x=>Number(x[k])||0),1);return <span key={j}><em>{d.name}</em><i style={{width:(value/max*100)+'%'}}></i><strong>{value}</strong></span>})}</div>)}</div>}return <div className="chart simpleChart">{data.map((d,i)=>{const max=Math.max(...data.map(x=>Number(x.value)||0),1);return <span key={i}><em>{d.name}</em><i style={{width:((Number(d.value)||0)/max*100)+'%'}}></i><strong>{d.value}</strong></span>})}</div>}
-function QuestionForm({onSave}){const[ok,setOk]=useState(false);const tema=sessionStorage.getItem('temaHGC')||'';const[form,setForm]=useState({nombre:'',correo:'',telefono:'',barrio:'',tema:tema||'Prestación de servicios de salud',pregunta:''});function submit(e){const q={...form,fecha:fmtDate(),id:Date.now()};onSave(q);setOk(true);setTimeout(()=>setOk(false),5000)}return <div className="formGrid" id="preguntas"><div className="megafono"><MessageCircle size={62}/><h3>Tu opinión es muy importante</h3><p>Las preguntas recibidas sirven para preparar respuestas durante el diálogo ciudadano.</p></div><form action={FORM_ENDPOINT} method="POST" onSubmit={submit}><input type="hidden" name="_subject" value="Nueva pregunta Rendición de Cuentas 2025 HGC"/><input type="hidden" name="_captcha" value="false"/><input type="hidden" name="_template" value="table"/><div className="two"><label>Nombre completo<input name="nombre" value={form.nombre} onChange={e=>setForm({...form,nombre:e.target.value})} placeholder="Opcional"/></label><label>Correo electrónico<input name="correo" type="email" value={form.correo} onChange={e=>setForm({...form,correo:e.target.value})} placeholder="Opcional"/></label></div><div className="two"><label>Teléfono<input name="telefono" value={form.telefono} onChange={e=>setForm({...form,telefono:e.target.value})} placeholder="Opcional"/></label><label>Barrio o vereda<input name="barrio" value={form.barrio} onChange={e=>setForm({...form,barrio:e.target.value})} placeholder="Opcional"/></label></div><label>Tema de la pregunta<select name="tema" value={form.tema} onChange={e=>setForm({...form,tema:e.target.value})}>{chapters.map(c=><option key={c.id}>{c.title}</option>)}</select></label><label>Escribe tu pregunta<textarea name="pregunta" required value={form.pregunta} onChange={e=>setForm({...form,pregunta:e.target.value})} placeholder="Cuéntanos tu pregunta o inquietud..."/></label><button className="btn primary" type="submit"><Send/> Enviar pregunta</button>{ok&&<div className="ok">Pregunta registrada correctamente. Gracias por participar.</div>}</form><div className="qr"><div className="qrbox">QR</div><p>Espacio para reemplazar por el QR final del enlace publicado en Vercel.</p></div></div>}
+function QuestionForm({onSave}){const[ok,setOk]=useState(false);const tema=sessionStorage.getItem('temaHGC')||'';const[form,setForm]=useState({nombre:'',correo:'',telefono:'',barrio:'',tema:tema||'Prestación de servicios de salud',pregunta:''});
+
+async function submit(e){
+    e.preventDefault();
+  
+    const q = {
+      ...form,
+      fecha: fmtDate(),
+      id: Date.now()
+    };
+  
+    const { error } = await supabase.from('preguntas').insert([{
+      fecha: new Date().toISOString(),
+      tema: form.tema || '',
+      nombre: form.nombre || '',
+      correo: form.correo || '',
+      telefono: form.telefono || '',
+      barrio: form.barrio || '',
+      pregunta: form.pregunta || ''
+    }]);
+  
+    if(error){
+      console.error('ERROR SUPABASE:', error);
+      alert('No se pudo guardar la pregunta: ' + error.message);
+      return;
+    }
+  
+    onSave(q);
+    setOk(true);
+    setForm({
+      nombre:'',
+      correo:'',
+      telefono:'',
+      barrio:'',
+      tema:'Prestación de servicios de salud',
+      pregunta:''
+    });
+    setTimeout(()=>setOk(false),5000);
+  }
+
+  return <div className="formGrid" id="preguntas"><div className="megafono"><MessageCircle size={62}/><h3>Tu opinión es muy importante</h3><p>Las preguntas recibidas sirven para preparar respuestas durante el diálogo ciudadano.</p></div><form onSubmit={submit}><input type="hidden" name="_subject" value="Nueva pregunta Rendición de Cuentas 2025 HGC"/><input type="hidden" name="_captcha" value="false"/><input type="hidden" name="_template" value="table"/><div className="two"><label>Nombre completo<input name="nombre" value={form.nombre} onChange={e=>setForm({...form,nombre:e.target.value})} placeholder="Opcional"/></label><label>Correo electrónico<input name="correo" type="email" value={form.correo} onChange={e=>setForm({...form,correo:e.target.value})} placeholder="Opcional"/></label></div><div className="two"><label>Teléfono<input name="telefono" value={form.telefono} onChange={e=>setForm({...form,telefono:e.target.value})} placeholder="Opcional"/></label><label>Barrio o vereda<input name="barrio" value={form.barrio} onChange={e=>setForm({...form,barrio:e.target.value})} placeholder="Opcional"/></label></div><label>Tema de la pregunta<select name="tema" value={form.tema} onChange={e=>setForm({...form,tema:e.target.value})}>{chapters.map(c=><option key={c.id}>{c.title}</option>)}</select></label><label>Escribe tu pregunta<textarea name="pregunta" required value={form.pregunta} onChange={e=>setForm({...form,pregunta:e.target.value})} placeholder="Cuéntanos tu pregunta o inquietud..."/></label><button className="btn primary" type="submit"><Send/> Enviar pregunta</button>{ok&&<div className="ok">Pregunta registrada correctamente. Gracias por participar.</div>}</form><div className="qr"><div className="qrbox">QR</div><p>Espacio para reemplazar por el QR final del enlace publicado en Vercel.</p></div></div>}
 function QuestionsTable({questions}){return <div className="tableBox"><table><thead><tr><th>Fecha</th><th>Tema</th><th>Nombre</th><th>Correo</th><th>Teléfono</th><th>Barrio/vereda</th><th>Pregunta</th></tr></thead><tbody>{questions.length?questions.map(q=><tr key={q.id}><td>{q.fecha}</td><td>{q.tema}</td><td>{q.nombre}</td><td>{q.correo}</td><td>{q.telefono}</td><td>{q.barrio}</td><td>{q.pregunta}</td></tr>):<tr><td colSpan="7">Aún no hay preguntas guardadas en este navegador.</td></tr>}</tbody></table></div>}
 function downloadCSV(rows){const clave=prompt('Ingrese la clave administradora para descargar las preguntas:');if(clave!=='rendicion.hgc11'){alert('Clave incorrecta. No se descargó el archivo.');return}const fecha=new Date().toLocaleString('es-CO');const trs=rows.length?rows.map((r,i)=>`<tr><td>${i+1}</td><td>${r.fecha||''}</td><td>${r.tema||''}</td><td>${r.nombre||''}</td><td>${r.correo||''}</td><td>${r.telefono||''}</td><td>${r.barrio||''}</td><td>${String(r.pregunta||'').replace(/[<>&]/g,m=>({'<':'&lt;','>':'&gt;','&':'&amp;'}[m]))}</td></tr>`).join(''):`<tr><td colspan="8">Aún no hay preguntas registradas en este navegador.</td></tr>`;const html=`<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Preguntas Rendición de Cuentas HGC 2025</title><style>body{font-family:Arial,sans-serif;margin:34px;color:#123}h1{color:#082d5c}p{color:#456}.card{border:1px solid #dbeaf6;border-radius:18px;padding:24px;box-shadow:0 12px 30px rgba(0,0,0,.08)}table{border-collapse:collapse;width:100%;margin-top:22px;font-size:13px}th{background:#0071bc;color:white;text-align:left}th,td{border:1px solid #dbeaf6;padding:10px;vertical-align:top}tr:nth-child(even){background:#f4fbff}.seal{font-weight:bold;color:#0b9b70}</style></head><body><div class="card"><h1>Hospital Gonzalo Contreras E.S.E.</h1><p class="seal">Una Familia al Servicio de su Familia</p><p><b>Reporte de preguntas - Rendición de Cuentas 2025</b><br>Generado: ${fecha}<br>Correo sistemas: ${EMAIL_SISTEMAS}</p><table><thead><tr><th>#</th><th>Fecha</th><th>Tema</th><th>Nombre</th><th>Correo</th><th>Teléfono</th><th>Barrio/vereda</th><th>Pregunta</th></tr></thead><tbody>${trs}</tbody></table></div></body></html>`;const blob=new Blob([html],{type:'text/html;charset=utf-8;'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='preguntas-rendicion-hgc-2025.html';a.click();URL.revokeObjectURL(url)}
 createRoot(document.getElementById('root')).render(<App/>);
